@@ -1,0 +1,35 @@
+name: "CodeQL Analysis - Main"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  analyze:
+    name: Analyze on Main
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v2
+        with:
+          languages: csharp
+          build-mode: none
+
+    
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v2
+        with:
+          queries:   ./codeql/QueriesMain
+                     ./codeql/QueriesDev
+
+      - name: Fail if warnings found
+        if: failure() || success() && steps.analyze.outputs.alerts && steps.analyze.outputs.alerts > 0
+        run: exit 1

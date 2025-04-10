@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bacd756deb4a9e4e9ebe58f48a10d29, type: 3}
+  m_Name: Psychic
+  m_EditorClassIdentifier: 
+  storyName: The Psychic Sidekick
+  storyID: 1
+  dialogueBackground: {fileID: 3448788318129469726, guid: 2aa10b6eb50dffe43b2e8e3c986edc5c, type: 3}
+  hintBackground: {fileID: 3448788318129469726, guid: 2aa10b6eb50dffe43b2e8e3c986edc5c, type: 3}
+  epilogueBackground: {fileID: 3448788318129469726, guid: 2aa10b6eb50dffe43b2e8e3c986edc5c, type: 3}
+  victimDialogue: has gone home.
+  hintDialogue: Hmm.. I am seeing something..
+  numberOfCharacters: 4
+  numQuestions: 1
+  minimumRemaining: 2
+  immediateVictim: 0

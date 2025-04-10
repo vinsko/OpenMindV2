@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 20_Hidde_Data
+  m_EditorClassIdentifier: 
+  characterName: Hidde
+  id: 20
+  neutralAvatar: {fileID: 21300000, guid: b658754ffb5fd2f439fd22366863f62d, type: 3}
+  happyAvatar: {fileID: 21300000, guid: b64f405cd687c1740b7f6349110730f3, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: 0b28ca71bda9c4346a08af2f8181e69a, type: 3}
+  voicePitch: 1
+  facePivot: {x: 0.4999, y: 0.7849}
+  firstGreeting: {fileID: 11400000, guid: daf57514ee70f41428000b24408f83cf, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 2
+    answer: {fileID: 11400000, guid: 35c5e1d7c7f686a489db0eec429f3374, type: 2}
+    trait:
+    - I live with my parents and I have friends I hang out with a lot.
+  - question: 6
+    answer: {fileID: 11400000, guid: 29a021d00cd6e8141b59f255386481e7, type: 2}
+    trait:
+    - I think people get too angry when they lose elections.
+  - question: 7
+    answer: {fileID: 11400000, guid: b2328a22eb00cc74787160fc515df9fd, type: 2}
+    trait:
+    - I like learning things about things I find interesting.
+  - question: 9
+    answer: {fileID: 11400000, guid: 521859026a062bc44a95636aa1f0c402, type: 2}
+    trait:
+    - I am agnostic.
+  - question: 13
+    answer: {fileID: 11400000, guid: f7a5bbeb168ffe441bb508ea3dbe390a, type: 2}
+    trait:
+    - My dad is the most important person in my life.
+  - question: 14
+    answer: {fileID: 11400000, guid: 4a4c5f1676e82a24195f66c1e2433541, type: 2}
+    trait:
+    - I'm caring and a good listener.
+  - question: 15
+    answer: {fileID: 11400000, guid: f7f506d202669504f9f49607d4ec70e1, type: 2}
+    trait:
+    - It's hard for me to be social.
+  - question: 16
+    answer: {fileID: 11400000, guid: 6cd6b223798987f429babfaff0168917, type: 2}
+    trait:
+    - People are surprised when they find out I do theater.
+  - question: 17
+    answer: {fileID: 11400000, guid: eb6adf21473465547b8287cda34e6109, type: 2}
+    trait:
+    - I rather go protest the source of the problem than block roads like Extinction
+      Rebellion.
+  - question: 18
+    answer: {fileID: 11400000, guid: 68e774be42976d242b0d6728403d2bf3, type: 2}
+    trait:
+    - I think everyone is smart in their own way.
+  greetings:
+  - lines:
+    - Oh, hi.

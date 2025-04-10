@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 3_Olivier_Data
+  m_EditorClassIdentifier: 
+  characterName: Olivier
+  id: 3
+  neutralAvatar: {fileID: 21300000, guid: 4fd19ba46f9fb984b8712a7a57e3f9a6, type: 3}
+  happyAvatar: {fileID: 21300000, guid: 90e5f9e4e89ee02408b5da45f51ecdb3, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: 2688e08a07c11f24392737bad6c208e3, type: 3}
+  voicePitch: 1
+  facePivot: {x: 0.5007, y: 0.8389}
+  firstGreeting: {fileID: 11400000, guid: 87f520fb49817eb4fb176232b53b713c, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 13
+    answer: {fileID: 11400000, guid: ab098bcce36a59e4084e4b455efed9a2, type: 2}
+    trait:
+    - Jesus Christ is the most important person in my life.
+  - question: 3
+    answer: {fileID: 11400000, guid: 9ddc1cffe80fbb64eb127cb7d290ca70, type: 2}
+    trait:
+    - "Sifan Hassan is very inspiring to me. I think it's great that we\u2019re giving
+      women a chance and that she\u2019s really going for it."
+  - question: 9
+    answer: {fileID: 11400000, guid: add9cdc5262bc594f95f845c014cae99, type: 2}
+    trait:
+    - I am a Christian and I believe I am loved by God.
+  - question: 2
+    answer: {fileID: 11400000, guid: f96a5d198af127b43a759a28043d4052, type: 2}
+    trait:
+    - Life is great, I have bunch of friends and I have learned to see the good things
+      in bad times.
+  - question: 12
+    answer: {fileID: 11400000, guid: 29f0dcfce5a37cc42aeaf0448cd6ac4f, type: 2}
+    trait:
+    - My parents say I am enthusiastic for the future and I think I am great at listening.
+  - question: 6
+    answer: {fileID: 11400000, guid: eb65b39b96542c349ae15d37784355b0, type: 2}
+    trait:
+    - I am worried about the political climate, because we're listening to each other
+      less and less.
+  - question: 10
+    answer: {fileID: 11400000, guid: 9b190406386349e41847fb479b012c81, type: 2}
+    trait:
+    - I have a bachelor's degree.
+  - question: 20
+    answer: {fileID: 11400000, guid: d460966fdaa5f4a44a4cfe663c533b60, type: 2}
+    trait:
+    - I am not a vegetarian, but I don't like the way meat is produced.
+  - question: 7
+    answer: {fileID: 11400000, guid: 69c767facd41f8c4897c256b57126771, type: 2}
+    trait:
+    - I love to hang out with my friends.
+  greetings:
+  - lines:
+    - Hello there!

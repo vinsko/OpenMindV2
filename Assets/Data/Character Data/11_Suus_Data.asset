@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 11_Suus_Data
+  m_EditorClassIdentifier: 
+  characterName: Suus
+  id: 11
+  neutralAvatar: {fileID: 21300000, guid: dd0ab3d764f597c469fd063abd62e39b, type: 3}
+  happyAvatar: {fileID: 21300000, guid: cb9487c8081b8944cb8009f5adb7a319, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: f51bebd1034c4194fa4dfd63cdc07b21, type: 3}
+  voicePitch: 1.5
+  facePivot: {x: 0.5009, y: 0.7489}
+  firstGreeting: {fileID: 11400000, guid: e17ba941815a37643ba520bf5ee9779b, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 1
+    answer: {fileID: 11400000, guid: 51388fe8106387444b579a019b40c421, type: 2}
+    trait:
+    - I am 61 years old.
+  - question: 2
+    answer: {fileID: 11400000, guid: 728e7a43b06fa48448d0b0619a31e158, type: 2}
+    trait:
+    - I work as a childminder.
+  - question: 3
+    answer: {fileID: 11400000, guid: 8f27594bc7f39c2459754de8ae66944a, type: 2}
+    trait:
+    - I really respect the royal family.
+  - question: 6
+    answer: {fileID: 11400000, guid: 9aa0709da56904e47b7371e78403218b, type: 2}
+    trait:
+    - I'm on the right side of the political spectrum.
+  - question: 12
+    answer: {fileID: 11400000, guid: a8642358d6ee0bc4b92bf9702f38653b, type: 2}
+    trait:
+    - I rarely get angry.
+  - question: 7
+    answer: {fileID: 11400000, guid: 04867ce0be56dd34e8a8a251d6bc8475, type: 2}
+    trait:
+    - My hobbies are needlework and crocheting.
+  - question: 9
+    answer: {fileID: 11400000, guid: 7cca15c72a00db749a8ac8d5b6ceaec8, type: 2}
+    trait:
+    - I pray before eating.
+  - question: 11
+    answer: {fileID: 11400000, guid: a6ec4030483acc246a6df7d8fbfafbaf, type: 2}
+    trait:
+    - I have a "carpe diem" poster hanging above my head.
+  - question: 13
+    answer: {fileID: 11400000, guid: e8fdc55f7c6c7cb49800303ca9371282, type: 2}
+    trait:
+    - My husband is the most important person in my life.
+  - question: 18
+    answer: {fileID: 11400000, guid: 2c56059992e207e4eb1f7872b6203fe2, type: 2}
+    trait:
+    - I think the education system in the Netherlands needs to have more space for
+      children that need more support.
+  - question: 17
+    answer: {fileID: 11400000, guid: 08c5783327ce25945bff79adfdaef46f, type: 2}
+    trait:
+    - It saddens me to see that there is a lot of poverty in the Netherlands.
+  greetings:
+  - lines:
+    - Hello.

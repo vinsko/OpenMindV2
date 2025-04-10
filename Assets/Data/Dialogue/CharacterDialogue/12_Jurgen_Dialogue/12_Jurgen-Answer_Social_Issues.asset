@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 12_Jurgen-Answer_Social_Issues
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 0
+    text: 'I think people take in too much external news, problems and suffering.
+      It''s better to look at what we can do ourselves locally. We should ask ourselves:
+      "can I do something for my neighbours? Can I do something for my own community?
+      Can I set up something that is actually helpful?".'
+    image: {fileID: 0}
+    background: []

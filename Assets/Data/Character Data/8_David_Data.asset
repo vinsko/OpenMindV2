@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 8_David_Data
+  m_EditorClassIdentifier: 
+  characterName: David
+  id: 8
+  neutralAvatar: {fileID: 21300000, guid: aa84276fd5a1f6d46af5d2dc2646a869, type: 3}
+  happyAvatar: {fileID: 21300000, guid: daae6ae9af99b094fbe337f57db176d8, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: f1bcb30226dad834c864561f5c149c89, type: 3}
+  voicePitch: 1
+  facePivot: {x: 0.5025, y: 0.7429}
+  firstGreeting: {fileID: 11400000, guid: 5bc722b4d737328418293a54ee2a03d7, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 2
+    answer: {fileID: 11400000, guid: 786686bcedac58a46a38415bd6a24ccf, type: 2}
+    trait:
+    - I live with my partner and cats.
+  - question: 4
+    answer: {fileID: 11400000, guid: 293ea8c9e5e13e6469062a12142487a9, type: 2}
+    trait:
+    - I am gay.
+  - question: 6
+    answer: {fileID: 11400000, guid: 49e988fb94799c44ba3e229c123733f1, type: 2}
+    trait:
+    - I think the way religion executed is a big problem.
+  - question: 7
+    answer: {fileID: 11400000, guid: 4de41168017cdcd4cbed24b4d3e6ce85, type: 2}
+    trait:
+    - I like to hang out with friends and watch tv.
+  - question: 9
+    answer: {fileID: 11400000, guid: e3d2db944764bd6478e6848f3ed36490, type: 2}
+    trait:
+    - I am not religious.
+  - question: 11
+    answer: {fileID: 11400000, guid: 6fdd5497adb029444a7ca1759eb34e59, type: 2}
+    trait:
+    - I follow a lot of Christian values.
+  - question: 19
+    answer: {fileID: 11400000, guid: 88c36fb6f23aa9843a64733a01739b9f, type: 2}
+    trait:
+    - If I would win the lottery, I would quit my job a travel through South Africa
+      with my partner.
+  - question: 3
+    answer: {fileID: 11400000, guid: 8e21a93a6cbfe494bbaf0d742fb301cf, type: 2}
+    trait:
+    - I don't really look up to anyone anymore.
+  greetings:
+  - lines:
+    - Hello!

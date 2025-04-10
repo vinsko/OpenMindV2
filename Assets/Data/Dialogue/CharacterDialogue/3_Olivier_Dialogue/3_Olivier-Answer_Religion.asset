@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 3_Olivier-Answer_Religion
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 0
+    text: Yes, I am Christian. Religion to me is who I think God is, and who God
+      wants to be, to me. I think God created a beautiful world, but things happened
+      that made it not beautiful anymore. However, I know I am loved and that my
+      purpose is to contribute to make it beautiful again.
+    image: {fileID: 0}
+    background: []

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 10_Viktor-Answer_Political
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 0
+    text: I try to follow as many different news sources as I can to get a clear
+      view of what is happening on both the right and left side. Personally, I am
+      on the right side of the political spectrum. I will never join a splinter party.
+      I also think populism is condemnable, because it is really easy to use people's
+      gut feeling. I can't stand Donald Trump because of that.
+    image: {fileID: 0}
+    background: []

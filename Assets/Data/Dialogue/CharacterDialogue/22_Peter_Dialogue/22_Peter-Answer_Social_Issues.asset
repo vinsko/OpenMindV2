@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 22_Peter-Answer_Social_Issues
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 0
+    text: 'What everyone is talking about right now. Migration, immigrants and the
+      asylum seeker problem. I think that, when talking about seeking asylum because
+      of danger, I''m entirely open to it. We need people from outside of the Netherlands,
+      the economy would collapse otherwise. But when people think the grass is greener
+      on the other side of the mountain and contribute nothing to society, I think
+      a country like the Netherlands should say: "No, there is no place for you here".
+      I speak up about discrimination within the police itself as well. It is not
+      a place where you expect it to happen and it shouldn''t be allowed.'
+    image: {fileID: 0}
+    background: []

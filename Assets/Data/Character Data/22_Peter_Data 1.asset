@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 22_Peter_Data 1
+  m_EditorClassIdentifier: 
+  characterName: Peter
+  id: 22
+  neutralAvatar: {fileID: 21300000, guid: 088a0440883d6c44daed691a01e0d7be, type: 3}
+  happyAvatar: {fileID: 21300000, guid: 67f1c524200bec8458c43b9e6c1c906d, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: 2082c9c1a79aa064e997def953ab0a71, type: 3}
+  voicePitch: 1
+  facePivot: {x: 0.5, y: 0.8}
+  firstGreeting: {fileID: 11400000, guid: 60ab798926622054fa4b6952b7832cb7, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 1
+    answer: {fileID: 11400000, guid: 89313ecdc9e18b7468c98fb2d2a257ad, type: 2}
+    trait:
+    - I am 50 years old.
+  - question: 2
+    answer: {fileID: 11400000, guid: 2a15c8f28e80a38498c5b7509142c692, type: 2}
+    trait:
+    - I live together with my girlfriend and three children.
+  - question: 3
+    answer: {fileID: 11400000, guid: 7d42544d2231fed40b27d3bc2db93ecb, type: 2}
+    trait:
+    - I am inspired by Peter R. de Vries.
+  - question: 4
+    answer: {fileID: 11400000, guid: d2e115fd0d43bf54f8ecee6819ac7159, type: 2}
+    trait:
+    - I'm monogamous.
+  - question: 6
+    answer: {fileID: 11400000, guid: f9dd247990610ee42a9ebc7dc561e766, type: 2}
+    trait:
+    - It bothers me that the political debates seem to be more about personal character
+      than the argument.
+  - question: 7
+    answer: {fileID: 11400000, guid: 38f528e391367f24faf2481f3e20ba36, type: 2}
+    trait:
+    - My biggest hobby is reading.
+  - question: 9
+    answer: {fileID: 11400000, guid: 17b9f23bb7bf6ec4c8d8555fca1319da, type: 2}
+    trait:
+    - I used to be an atheist, now I'm agnostic.
+  - question: 10
+    answer: {fileID: 11400000, guid: f0785da6cbc16d04eb2837a49c966590, type: 2}
+    trait:
+    - I have a master's degree from university.
+  - question: 11
+    answer: {fileID: 11400000, guid: 6e5163bbc8c831d4eab6cc30a58a14bd, type: 2}
+    trait:
+    - My core values are integrity, reliability, connection and courage.
+  - question: 13
+    answer: {fileID: 11400000, guid: f06a589c6b5b0f644b36080d1da14d66, type: 2}
+    trait:
+    - My girlfriend is the most important person in my life.
+  - question: 14
+    answer: {fileID: 11400000, guid: 260dfd8ccccdd9a40a758cb0b1e3e0a9, type: 2}
+    trait:
+    - One of my positive traits is that I'm interested in a lot of things and in
+      other people's stories.
+  - question: 15
+    answer: {fileID: 11400000, guid: ac4172dcc8a696d48a453d34caa1feaf, type: 2}
+    trait:
+    - My negative trait is that I can be very dominant.
+  - question: 17
+    answer: {fileID: 11400000, guid: 879962de5eefffa46acbb3d959d7e477, type: 2}
+    trait:
+    - A social issue I'm interested in is the migration, immigrant and asylum seeker
+      problems.
+  greetings:
+  - lines:
+    - Hi there.

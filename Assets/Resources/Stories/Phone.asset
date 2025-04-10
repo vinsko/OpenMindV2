@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bacd756deb4a9e4e9ebe58f48a10d29, type: 3}
+  m_Name: Phone
+  m_EditorClassIdentifier: 
+  storyName: The Mysterious Contact
+  storyID: 0
+  dialogueBackground: {fileID: 3448788318129469726, guid: 11e4c486b4dfc1b46b178c950ffb7027, type: 3}
+  hintBackground: {fileID: 3448788318129469726, guid: e61044c9b95d01a4b9eac9d8850a2b7f, type: 3}
+  additionalHintBackgroundObjects: []
+  epilogueBackground: {fileID: 3448788318129469726, guid: e61044c9b95d01a4b9eac9d8850a2b7f, type: 3}
+  storyIntroMusic: {fileID: 8300000, guid: a4ea6ec18d36845499ec43111d52e57b, type: 3}
+  storyGameMusic: {fileID: 8300000, guid: 0ad27c3e394db5c49a9750fc59f8d673, type: 3}
+  storyEpilogueMusic: {fileID: 8300000, guid: b20e3c2360e5b3844a2d2a5711bc99ec, type: 3}
+  storyEpilogueWonDialogue: {fileID: 11400000, guid: 91747bafca5141d4f9ee27c94ce9ba31, type: 2}
+  storyEpilogueLossDialogueCulprit: {fileID: 11400000, guid: 99c354101e36f6c499ffc2d63f2a4074, type: 2}
+  storyEpilogueLossDialogueNPC: {fileID: 11400000, guid: bb17142424422e6409d6943693dd0491, type: 2}
+  victimDialogue: has gone home.
+  hintDialogue:
+  - It seems <victimName> has gone home.
+  - 'Still haven''t figured out who I am? Here''s another hint:'
+  - <hint>
+  noMoreHintsDialogue:
+  - It seems <victimName> has gone home.
+  - You still haven't figured it out?
+  - I've given you my last hint.
+  - You're on your own now... good luck!
+  preEpilogueDialogue:
+  - The reunion is about to finish.
+  - I hope you've figured out who I am by now.
+  - Come find me!
+  numberOfCharacters: 8
+  numQuestions: 2
+  minimumRemaining: 4
+  immediateVictim: 0

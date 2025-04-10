@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 21_Daan-Answer_Education_Sytem
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 0
+    text: I like that it's possible to stack diploma's. Someone that starts at vmbo
+      will be able to go to MBO, HBO or even to university eventually. That being
+      said, I'm absolutely not a fan of standardized tests. That way, you are not
+      testing someone's actual skill. The only thing you are testing is how good
+      someone is at reading from a book and remembering the information.
+    image: {fileID: 0}
+    background: []

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 15_Linda_Data
+  m_EditorClassIdentifier: 
+  characterName: Linda
+  id: 15
+  neutralAvatar: {fileID: 21300000, guid: df3abe4422ead5344ba16098cd64c5db, type: 3}
+  happyAvatar: {fileID: 21300000, guid: cc42d00c1b464f6438f0e7bc5903da83, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: c956b6b9e8499a44fa46e1e7f50dcce6, type: 3}
+  voicePitch: 1.7
+  facePivot: {x: 0.5014, y: 0.6779}
+  firstGreeting: {fileID: 11400000, guid: 008ae25d11b9ecd409051c9ba84418ff, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 1
+    answer: {fileID: 11400000, guid: 8e5befae80a5e7f489bdcdcc176cfa68, type: 2}
+    trait:
+    - I am 77 years old.
+  - question: 2
+    answer: {fileID: 11400000, guid: f32d859645d63654e95364d9b8e1a4d9, type: 2}
+    trait:
+    - My life is great, I like getting older.
+  - question: 7
+    answer: {fileID: 11400000, guid: 691685b65e3d2c140aaaaf00fb7ed1e3, type: 2}
+    trait:
+    - I love to bike and I read a lot.
+  - question: 10
+    answer: {fileID: 11400000, guid: fc8831efa24806e44813aa296d961486, type: 2}
+    trait:
+    - I have a nursing degree.
+  - question: 11
+    answer: {fileID: 11400000, guid: 074c532ba5173984089242b2f245cf9f, type: 2}
+    trait:
+    - I think empathy is very important.
+  - question: 13
+    answer: {fileID: 11400000, guid: 9cd980cbf81c85046a0b8aef09b1a875, type: 2}
+    trait:
+    - The most important people in my life are my family.
+  - question: 17
+    answer: {fileID: 11400000, guid: 011f01310cf0e4c4f972f8a1e6729a89, type: 2}
+    trait:
+    - 'I think racism is a very big problem. I always try to talk to people when
+      I hear them making racist remarks. '
+  - question: 16
+    answer: {fileID: 11400000, guid: 827486aecc5ffa045b6d9034124a0635, type: 2}
+    trait:
+    - I'm very jealous of people with a lot of talent.
+  greetings:
+  - lines:
+    - Oh, hello there.

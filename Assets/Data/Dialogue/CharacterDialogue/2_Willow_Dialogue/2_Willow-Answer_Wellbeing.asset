@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 2_Willow-Answer_Wellbeing
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 1
+    text: I'm doing great! I am very proud of who I am right now, but I also still
+      have the freedom to make irresponsible decisions, and to enjoy them.
+    image: {fileID: 0}
+    background: []
+  - type: 0
+    emotion: 2
+    text: Oh, there is one thing that worries me. The current growth of racism and
+      inequality, but I don't really like to talk about that.
+    image: {fileID: 0}
+    background: []
+  - type: 0
+    emotion: 0
+    text: I like to have fun to distract me from these kind of problems and issues
+      that I can't control.
+    image: {fileID: 0}
+    background: []

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 17_Maud_Data
+  m_EditorClassIdentifier: 
+  characterName: Maud
+  id: 17
+  neutralAvatar: {fileID: 21300000, guid: 3b74707e22c91414cb65ffc4b6911812, type: 3}
+  happyAvatar: {fileID: 21300000, guid: 923bef4250de3fd4d82d560c58f6cb99, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: 26aed1791157c1c49ba8b28571db7131, type: 3}
+  voicePitch: 1.7
+  facePivot: {x: 0.4993, y: 0.6548}
+  firstGreeting: {fileID: 11400000, guid: 002493ecd8f085c4fa96e30b551dd22f, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 1
+    answer: {fileID: 11400000, guid: 1a53785010be0464b97399fc9ad71e78, type: 2}
+    trait:
+    - I am 37 years old.
+  - question: 2
+    answer: {fileID: 11400000, guid: 88bd2b5c99f933a4681c5e24fcf5a8c4, type: 2}
+    trait:
+    - I am working as a youth coach.
+  - question: 3
+    answer: {fileID: 11400000, guid: 3dbf657eafe70e043b81763bcd38052d, type: 2}
+    trait:
+    - I respect people who are refusing to let anyone stop them from speaking the
+      truth.
+  - question: 6
+    answer: {fileID: 11400000, guid: 5debded8b1f1b0f40afa29fe762b885b, type: 2}
+    trait:
+    - The asylum policy makes me furious.
+  - question: 7
+    answer: {fileID: 11400000, guid: 8faa1c4cefa52834a847d10afb66dfb3, type: 2}
+    trait:
+    - I have a vegetable garder.
+  - question: 10
+    answer: {fileID: 11400000, guid: 54d9e5b8414d82c42b552edf590f329f, type: 2}
+    trait:
+    - I have an HBO master's degree in pedagogy.
+  - question: 10
+    answer: {fileID: 11400000, guid: 54d9e5b8414d82c42b552edf590f329f, type: 2}
+    trait:
+    - I have an HBO master's degree.
+  - question: 13
+    answer: {fileID: 11400000, guid: 62c7d222a0a65b540bc219253e37a5dc, type: 2}
+    trait:
+    - The most important person in my life is my boyfriend.
+  - question: 14
+    answer: {fileID: 11400000, guid: 3aa0c03fb230b9d46a9c7d51dbfdc47d, type: 2}
+    trait:
+    - I am an enthousiastic and caring person.
+  - question: 15
+    answer: {fileID: 11400000, guid: a925cd19210111446a87ab9c14b2a1d1, type: 2}
+    trait:
+    - I am bad at setting boundaries.
+  - question: 19
+    answer: {fileID: 11400000, guid: 4e822d0f95416114993df264412d39db, type: 2}
+    trait:
+    - If I would win the lottery, I would travel the world and start volunteering.
+  - question: 20
+    answer: {fileID: 11400000, guid: a2be3137f33a22c4d9eb3ae513ff0b5c, type: 2}
+    trait:
+    - I am a vegetarian.
+  - question: 17
+    answer: {fileID: 11400000, guid: 5916920f3500c664bba8e8d05ef0c40c, type: 2}
+    trait:
+    - If I have an opinion, I won't keep my mouth shut.
+  greetings:
+  - lines:
+    - Hello there.
+  - lines:
+    - Oh, hey
+    - Good to see you again

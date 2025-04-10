@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bacd756deb4a9e4e9ebe58f48a10d29, type: 3}
+  m_Name: Psychic
+  m_EditorClassIdentifier: 
+  storyName: The Psychic Sidekick
+  storyID: 1
+  dialogueBackground: {fileID: 3448788318129469726, guid: 64f13b6a847648142a34de14b6e30a54, type: 3}
+  hintBackground: {fileID: 3448788318129469726, guid: 11e4c486b4dfc1b46b178c950ffb7027, type: 3}
+  additionalHintBackgroundObjects:
+  - {fileID: 8379540494691323741, guid: c82f55dbcb4d36040b2a514dd2de4f17, type: 3}
+  - {fileID: 4608197996118494659, guid: 8521bf4181922a64eb68f26a42123678, type: 3}
+  epilogueBackground: {fileID: 3448788318129469726, guid: e61044c9b95d01a4b9eac9d8850a2b7f, type: 3}
+  storyIntroMusic: {fileID: 8300000, guid: fb4cb0d1f32ef524c8e502188350586b, type: 3}
+  storyGameMusic: {fileID: 8300000, guid: 0ad27c3e394db5c49a9750fc59f8d673, type: 3}
+  storyEpilogueMusic: {fileID: 8300000, guid: b20e3c2360e5b3844a2d2a5711bc99ec, type: 3}
+  storyEpilogueWonDialogue: {fileID: 11400000, guid: 343e5905858ea414280d99ae8eb62bc7, type: 2}
+  storyEpilogueLossDialogueCulprit: {fileID: 11400000, guid: 69b86c83f87104745b78f7fe4dbc75f2, type: 2}
+  storyEpilogueLossDialogueNPC: {fileID: 11400000, guid: ba3fbe3417af7a545a212bda404ea94c, type: 2}
+  victimDialogue: has disappeared.
+  hintDialogue:
+  - I noticed that <victimName> has disappeared..
+  - 'Hold on... I''m sensing something the culprit just said:'
+  - '"<hint>"'
+  noMoreHintsDialogue:
+  - noticed that <victimName> has disappeared.
+  - 'I am trying to reach the culprit, but I''m sensing nothing. '
+  - You will have to trust your own instincts for now..
+  preEpilogueDialogue:
+  - Oh no, the reunion is about to end!
+  - I think we've gathered all the information we can.
+  - 'Time to decide who is responsible for the disappearances. '
+  numberOfCharacters: 8
+  numQuestions: 2
+  minimumRemaining: 4
+  immediateVictim: 0

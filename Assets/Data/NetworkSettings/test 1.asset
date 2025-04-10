@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cecc0e26e7cb3d4d9df5dc85ab55b07, type: 3}
+  m_Name: test 1
+  m_EditorClassIdentifier: 
+  IsDebug: 1
+  DisplayDebugIntervalSeconds: 1
+  DisconnectedIntervalSeconds: 1
+  InitialisationDataSignature: Initializer
+  NotebookDataSignature: NotebookData
+  PingDataSignature: Ping
+  ClientHostPortConnection: 42069
+  IncomingDataIntervalSeconds: 1
+  ListeningWhileNotConnectedIntervalSeconds: 2
+  ConnectionTimeoutSeconds: 5
+  AcknowledgementTimeoutSeconds: 10

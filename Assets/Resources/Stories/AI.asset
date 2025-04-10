@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bacd756deb4a9e4e9ebe58f48a10d29, type: 3}
+  m_Name: AI
+  m_EditorClassIdentifier: 
+  storyName: The Stolen Paper
+  storyID: 2
+  dialogueBackground: {fileID: 3448788318129469726, guid: dfd884602b5ca334494c1346591cbefb, type: 3}
+  hintBackground: {fileID: 3448788318129469726, guid: e61044c9b95d01a4b9eac9d8850a2b7f, type: 3}
+  additionalHintBackgroundObjects:
+  - {fileID: 8379540494691323741, guid: 1d4549f62785b5e41a1e4b67972626e0, type: 3}
+  - {fileID: 8379540494691323741, guid: 9695ba7bee70fd44eaf3931f178dc906, type: 3}
+  epilogueBackground: {fileID: 3448788318129469726, guid: 11e4c486b4dfc1b46b178c950ffb7027, type: 3}
+  storyIntroMusic: {fileID: 8300000, guid: fb4cb0d1f32ef524c8e502188350586b, type: 3}
+  storyGameMusic: {fileID: 8300000, guid: 0ad27c3e394db5c49a9750fc59f8d673, type: 3}
+  storyEpilogueMusic: {fileID: 8300000, guid: b20e3c2360e5b3844a2d2a5711bc99ec, type: 3}
+  storyEpilogueWonDialogue: {fileID: 11400000, guid: 713c26f4f654be5438236d883440cdeb, type: 2}
+  storyEpilogueLossDialogueCulprit: {fileID: 11400000, guid: 1b02eeff34c2c8c49ba62200f63a7a64, type: 2}
+  storyEpilogueLossDialogueNPC: {fileID: 11400000, guid: 5e9ad781e678e6d49b227dace3e4c423, type: 2}
+  victimDialogue: is definitely  not the author.
+  hintDialogue:
+  - '<victimName> is definitely not the author. '
+  - 'A characteristic belonging to the real author is the following: '
+  - '"<hint>"'
+  noMoreHintsDialogue:
+  - <victimName> has gone home.
+  - I'm trying to calculate more data...
+  - It seems all these calculations have been too heavy on my processor.
+  - The circuit boards are fried. You will not receive any more hints.
+  preEpilogueDialogue:
+  - The reunion will come to an end soon.
+  - 'I hope you have identified the right author. '
+  - It is time to let everybode know who is the real author!
+  numberOfCharacters: 8
+  numQuestions: 2
+  minimumRemaining: 4
+  immediateVictim: 0

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 7_Arslan_Data
+  m_EditorClassIdentifier: 
+  characterName: Arslan
+  id: 7
+  neutralAvatar: {fileID: 21300000, guid: d0ce3a83079c96b478cb536810ab3257, type: 3}
+  happyAvatar: {fileID: 21300000, guid: 3459c9a619be6144897b459586b78d81, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: eaf5cee3853b2c644a8a9a7fd1009bef, type: 3}
+  voicePitch: 1.3
+  facePivot: {x: 0.5088, y: 0.8084}
+  firstGreeting: {fileID: 11400000, guid: d9e6dce2c9baa11408384aa80a3bbafb, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 3
+    answer: {fileID: 11400000, guid: c241b56e8c5a38b4e9d4b469e18cfd08, type: 2}
+    trait:
+    - Keanu Reeves is a big inspiration for me.
+  - question: 6
+    answer: {fileID: 11400000, guid: 2f8033df382a60e4aa4ae22fdec77123, type: 2}
+    trait:
+    - I think there are too many cutbacks on education and culture.
+  - question: 7
+    answer: {fileID: 11400000, guid: 6a5c1cf5fa6f95b46909ff123ae583bb, type: 2}
+    trait:
+    - I like to hang out with my friends.
+  - question: 9
+    answer: {fileID: 11400000, guid: bcb6e02204e731348be226fc9c1829f2, type: 2}
+    trait:
+    - I am not religious.
+  - question: 11
+    answer: {fileID: 11400000, guid: 4374de6887c25474ba884839adedabf4, type: 2}
+    trait:
+    - I think you should treat others like you want to be treated.
+  - question: 13
+    answer: {fileID: 11400000, guid: 5cf7bf768f0099649bd1f02ede9d9da4, type: 2}
+    trait:
+    - The most important people in my life are my mother and my girlfriend.
+  - question: 15
+    answer: {fileID: 11400000, guid: 39bc7c654de29df479a3765d2d012679, type: 2}
+    trait:
+    - I am very competitive.
+  - question: 19
+    answer: {fileID: 11400000, guid: 92f723dc8378c944c9036bd5d13cf64d, type: 2}
+    trait:
+    - If I would win the lottery, I would take a vacation with my parents and sister.
+  - question: 2
+    answer: {fileID: 11400000, guid: 2dcc8ead48613d64cb696b6eaf1cf787, type: 2}
+    trait:
+    - I hang out with my colleagues and friends from a community for Asian people.
+  greetings:
+  - lines:
+    - Hey there!

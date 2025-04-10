@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 13_Brooke-Answer_Hoibby
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 1
+    text: I have too many! Drawing, painting, needlework, making music, lots of volunteering
+      and watching cringey tv. I used to be a DJ and I do all kinds of sports. It's
+      kind of my pitfall. I enjoy doing all creative things. I can learn new things
+      quickly. I don't have one talent, I can do many things a little. I don't understand
+      it when people have no hobbies, besides watching Netflix.
+    image: {fileID: 0}
+    background: []
