@@ -18,6 +18,8 @@ public class MultiplayerManager : MonoBehaviour
     public NetworkSettings settings;
     public GameEvent       doPopup;
     
+    public bool isHost = false;
+    
     private Host                 host;
     private Client               client;
     public  MultiplayerInit      init;
@@ -42,6 +44,8 @@ public class MultiplayerManager : MonoBehaviour
     /// <param name="maxPlayers">the amount of players that are able the join the game</param>
     public void HostGame(int storyID, int maxPlayers)
     {
+        isHost = true;
+        
         init.story = storyID;
         
         // Create a seed

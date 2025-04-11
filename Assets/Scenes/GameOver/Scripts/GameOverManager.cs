@@ -13,8 +13,9 @@ public class GameOverManager : MonoBehaviour
 {
     [Header("Scene References")]
     [SerializeField] private GameObject gameWonCanvas;
-    [SerializeField] private GameObject gameLossCanvas;
+    [SerializeField] private GameObject   gameLossCanvas;
     [SerializeField] private GameObject[] singleplayerButtons;
+    [SerializeField] private GameObject[] warningObjects;
 
     [Header("Game Events")] 
     [SerializeField] private GameEvent onGameLoaded;
@@ -55,6 +56,7 @@ public class GameOverManager : MonoBehaviour
         
         SetStatusCanvas();
         SetButtons();
+        SetWarning();
     }
 
     /// <summary>
@@ -82,6 +84,18 @@ public class GameOverManager : MonoBehaviour
         // Don't let the player restart if we are in multiplayer
         foreach (var button in singleplayerButtons)
             button.SetActive(MultiplayerManager.mm == null);
+    }
+
+    /// <summary>
+    /// Only show the warning for ending the multiplayer session during multiplayer.
+    /// </summary>
+    private void SetWarning()
+    {
+        if (MultiplayerManager.mm == null)
+            return;
+        
+        foreach (var obj in warningObjects)
+            obj.SetActive(MultiplayerManager.mm.isHost);
     }
 
     public void ReturnToMenu()
