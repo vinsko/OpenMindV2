@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 14_Eva_Data
+  m_EditorClassIdentifier: 
+  characterName: Eva
+  id: 14
+  neutralAvatar: {fileID: 21300000, guid: 854afebe6edd6f84bb555f34546d4551, type: 3}
+  happyAvatar: {fileID: 21300000, guid: c4aad29826dbc5f40808d92c12ba44f2, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: c341da6588cfba64faa2d1d23d1d1730, type: 3}
+  voicePitch: 1.8
+  facePivot: {x: 0.4725, y: 0.7244}
+  firstGreeting: {fileID: 11400000, guid: 1a10e6e891bdd6a45891775b1c5656ff, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 1
+    answer: {fileID: 11400000, guid: f62162d0f0c194a40860c36f1eb3f345, type: 2}
+    trait:
+    - I am 50 years old.
+  - question: 2
+    answer: {fileID: 11400000, guid: 01e4cc924dc940e4c9a823a8aabb0fcf, type: 2}
+    trait:
+    - I work in the legal system.
+  - question: 3
+    answer: {fileID: 11400000, guid: ddaaa40d72bf199449318048f7823d80, type: 2}
+    trait:
+    - Michelle Obama inspires me.
+  - question: 5
+    answer: {fileID: 11400000, guid: 1c1394b270326d64488a94241ee23cef, type: 2}
+    trait:
+    - I'm slowly getting used to not having children at home anymore.
+  - question: 7
+    answer: {fileID: 11400000, guid: 7121a9199f467bc42b9965e1df082d6f, type: 2}
+    trait:
+    - I love going to the movies or the theatre.
+  - question: 9
+    answer: {fileID: 11400000, guid: edfb816f90e9d0046b6ac51b11ba70ef, type: 2}
+    trait:
+    - I think religion can be comforting for people that really believe in it.
+  - question: 10
+    answer: {fileID: 11400000, guid: 396edc17e8ccacd4f8aa503215c00e28, type: 2}
+    trait:
+    - I have a master's degree.
+  - question: 11
+    answer: {fileID: 11400000, guid: e28eee921f4a0a049960190414752bb0, type: 2}
+    trait:
+    - My core values are fairness, leniency and helpfulness.
+  - question: 14
+    answer: {fileID: 11400000, guid: 8b076f7e6fb4efc4f97a7906a2e4774c, type: 2}
+    trait:
+    - I am caring, considerate and empathetic.
+  - question: 15
+    answer: {fileID: 11400000, guid: 2ebf2952b8dd88a4089ca09c5603e0c0, type: 2}
+    trait:
+    - I'm gloomy sometimes.
+  - question: 19
+    answer: {fileID: 11400000, guid: d0be23d3f198ad947a6020ca9e14f53d, type: 2}
+    trait:
+    - If I would win the lottery, I would buy a house for my mother, save some for
+      my children and donate the rest to a charity.
+  - question: 17
+    answer: {fileID: 11400000, guid: 5d9fa90a6e4583f40a11d072179c26d7, type: 2}
+    trait:
+    - I think deporting children is scandalous.
+  greetings:
+  - lines:
+    - Hey, good to see you!

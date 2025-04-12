@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 9_Jonas_Data
+  m_EditorClassIdentifier: 
+  characterName: Jonas
+  id: 9
+  neutralAvatar: {fileID: 21300000, guid: 5e091d5f420e4dd4784e9b0f1440e220, type: 3}
+  happyAvatar: {fileID: 21300000, guid: c8e9619eaf545014cb7c11b84f6c6d17, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: 92d29887d67c03b49a99c6a59c1ed6ee, type: 3}
+  voicePitch: 1
+  facePivot: {x: 0.5084, y: 0.7997}
+  firstGreeting: {fileID: 11400000, guid: 101b2f964e9a9e84f8baeed4d2de3730, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 1
+    answer: {fileID: 11400000, guid: b5ba2365f92b0b740be6854f53cea9ff, type: 2}
+    trait:
+    - I am 23 years old.
+  - question: 2
+    answer: {fileID: 11400000, guid: 8b6df7ab529a01a4da5311dd67c66da4, type: 2}
+    trait:
+    - I am living in a working class neighbourhood and I have a lot of friends.
+  - question: 3
+    answer: {fileID: 11400000, guid: 9b4f66479c0b8ff48a47093e07245803, type: 2}
+    trait:
+    - I am inspired by the work that public figures do.
+  - question: 4
+    answer: {fileID: 11400000, guid: 530e9b9d17adc5a428c36e81003c7ca8, type: 2}
+    trait:
+    - I am transgender and asexual.
+  - question: 5
+    answer: {fileID: 11400000, guid: c51c0dedc55716f4d9959ed79d4aba9e, type: 2}
+    trait:
+    - I enjoy my life right now, because I am busy doing things I'm interested in.
+  - question: 9
+    answer: {fileID: 11400000, guid: e406ec4630174ea40a41092e40adaf37, type: 2}
+    trait:
+    - I am not religious, even though I grew up going to church.
+  - question: 10
+    answer: {fileID: 11400000, guid: 664ec4fb04cff9b4e97f48aa0c9dc4cf, type: 2}
+    trait:
+    - I am studying to get my bachelor's degree at university.
+  - question: 11
+    answer: {fileID: 11400000, guid: 32302fa9e397a084eaa6d3dc0171571b, type: 2}
+    trait:
+    - My core values are quality and open-mindedness.
+  - question: 12
+    answer: {fileID: 11400000, guid: d297569ee34d5ea42bb2e5b28a72ef77, type: 2}
+    trait:
+    - I am a very passionate person.
+  - question: 13
+    answer: {fileID: 11400000, guid: 3976f3a7ea1ea754799481a9332ce942, type: 2}
+    trait:
+    - My granddad is the most important person in my life.
+  - question: 15
+    answer: {fileID: 11400000, guid: 134bcd4e601f82c4faacbacd0f1a3f1b, type: 2}
+    trait:
+    - My negative trait is that I'm impantient.
+  - question: 19
+    answer: {fileID: 11400000, guid: 877d5fe79a9b54f4fab5e25d6e9b37c6, type: 2}
+    trait:
+    - If I would win the lottery, I would pay off my student debt and donate that
+      what is left.
+  - question: 6
+    answer: {fileID: 11400000, guid: b427158b60fbe1149bb781294603307a, type: 2}
+    trait:
+    - My political opinion is that people forget they are running a country and not
+      a business that needs to make money.
+  - question: 20
+    answer: {fileID: 11400000, guid: ca80610c8ec11554893cef144d511bcb, type: 2}
+    trait:
+    - I am vegetarian.
+  - question: 18
+    answer: {fileID: 11400000, guid: 8833f54b9f168de448f4d17c5a52302f, type: 2}
+    trait:
+    - I think the Dutch school system is too focussed on grading how well someone
+      can reproduce something instead of applying it.
+  - question: 17
+    answer: {fileID: 11400000, guid: 5620d20cfa497ca4fbc4434149a4fe00, type: 2}
+    trait:
+    - I care about the rights of minority groups.
+  greetings:
+  - lines:
+    - Hello, nice to see you here.

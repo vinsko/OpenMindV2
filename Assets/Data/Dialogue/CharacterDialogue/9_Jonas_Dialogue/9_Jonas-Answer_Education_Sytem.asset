@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 9_Jonas-Answer_Education_Sytem
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 0
+    text: I think it is great that we have different levels, because not everyone
+      functions in the same way. That being said, I don't think it's right to consider
+      them higher or lower. I think we are too focussed on grading how well someone
+      can reproduce something instead of actually understanding and applying it.
+      Lastly, the social dynamics of high school are not for me.
+    image: {fileID: 0}
+    background: []

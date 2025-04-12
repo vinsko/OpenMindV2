@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 11_Suus-Anwer_Life_General
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 1
+    text: My life is great right now! My husband and I are really enjoying our two
+      grandchildren. Because of that my husband and I are also enjoying each other
+      again. We are doing a lot of things together, just like we did when we just
+      got together. I have been working as a childminder for a long time.
+    image: {fileID: 0}
+    background: []

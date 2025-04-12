@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 19_Gijs_Data
+  m_EditorClassIdentifier: 
+  characterName: Gijs
+  id: 19
+  neutralAvatar: {fileID: 21300000, guid: c0de7e98428660f41bfd332522665424, type: 3}
+  happyAvatar: {fileID: 21300000, guid: 4c97a92e5d9fa2b47b32eca482db531b, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: 4d0d960529e92554182c77757958bb95, type: 3}
+  voicePitch: 1
+  facePivot: {x: 0.4978, y: 0.8044}
+  firstGreeting: {fileID: 11400000, guid: 477027acd99e4494b982ecef87cea315, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 1
+    answer: {fileID: 11400000, guid: 855c2f7dc984f444cb9be4fcd9dbf97e, type: 2}
+    trait:
+    - I am 27 years old.
+  - question: 6
+    answer: {fileID: 11400000, guid: 7e0415e8977628f429256c92ad424f2c, type: 2}
+    trait:
+    - I like that political parties for young people are growing.
+  - question: 7
+    answer: {fileID: 11400000, guid: 33642590ee58ff542b098853123d13b3, type: 2}
+    trait:
+    - I like that political parties for young people are growing.
+  - question: 10
+    answer: {fileID: 11400000, guid: f4e575d0524f404458e0d03e5082d78e, type: 2}
+    trait:
+    - I studied Life Sciences.
+  - question: 11
+    answer: {fileID: 11400000, guid: 57d399d7093a50042b3914f6e8f53336, type: 2}
+    trait:
+    - I love learning new things.
+  - question: 12
+    answer: {fileID: 11400000, guid: 3d4d6e40a66f7b64ea08a9fe1dcf3ff7, type: 2}
+    trait:
+    - I am a very chaotic person.
+  - question: 13
+    answer: {fileID: 11400000, guid: e443190da103e004cbddf6a35c70caae, type: 2}
+    trait:
+    - My girlfriend is the most important person in my life.
+  - question: 15
+    answer: {fileID: 11400000, guid: 64c457c7811347c4a96d13fa12ea053d, type: 2}
+    trait:
+    - I am very bad with money.
+  - question: 17
+    answer: {fileID: 11400000, guid: e2c2b904326671f4bb7451ee6108f91f, type: 2}
+    trait:
+    - I think we should do more for the climate.
+  - question: 19
+    answer: {fileID: 11400000, guid: 704ee36ebcff29e4e9d87bf164ca2aa8, type: 2}
+    trait:
+    - If I would win the lottery, I would buy myself a big house and a small goat.
+  greetings:
+  - lines:
+    - Hey hey!

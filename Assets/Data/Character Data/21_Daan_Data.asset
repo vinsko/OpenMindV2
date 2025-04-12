@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 21_Daan_Data
+  m_EditorClassIdentifier: 
+  characterName: Daan
+  id: 21
+  neutralAvatar: {fileID: 21300000, guid: 7e136370613de414c877a6300c8f5018, type: 3}
+  happyAvatar: {fileID: 21300000, guid: 9a542da39b4b39f4bb8e4b9bb9a8a9ca, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: e97f72101b6aeb2499e372bbcc97f0ce, type: 3}
+  voicePitch: 1
+  facePivot: {x: 0.4992, y: 0.8364}
+  firstGreeting: {fileID: 11400000, guid: 26822ec966f5f98438f9826dfeb52148, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 1
+    answer: {fileID: 11400000, guid: 2829c8a8d1ce57e4d8775cbcc6c45e75, type: 2}
+    trait:
+    - I am 35 years old.
+  - question: 2
+    answer: {fileID: 11400000, guid: b2c3e68ace9da904fb1d58b44cd2ed72, type: 2}
+    trait:
+    - I live in an apartment on my own.
+  - question: 6
+    answer: {fileID: 11400000, guid: 25c540ecd28ab764db0f46c338b192a8, type: 2}
+    trait:
+    - I'd rather not participate in political discussions.
+  - question: 7
+    answer: {fileID: 11400000, guid: 8b2e6335f1d1a2d4a81945a7b75d93ec, type: 2}
+    trait:
+    - I have a black belt in a martial art.
+  - question: 9
+    answer: {fileID: 11400000, guid: 2d007914c4c94734ea990b755b57ebf5, type: 2}
+    trait:
+    - I am not religious, but I am spiritual sometimes.
+  - question: 10
+    answer: {fileID: 11400000, guid: f49d4cf55f709904da5ba9e9fb84d9c9, type: 2}
+    trait:
+    - My education level is HBO.
+  - question: 11
+    answer: {fileID: 11400000, guid: 5513f1a773faf58458716757a842f4cd, type: 2}
+    trait:
+    - It's important to me that I try to do something good for other people.
+  - question: 13
+    answer: {fileID: 11400000, guid: defd369c7aa2bd04f9b8d273ca86388e, type: 2}
+    trait:
+    - My girlfriend is the most important person in my life.
+  - question: 14
+    answer: {fileID: 11400000, guid: 42c9feebf9f68884f91b04138abe2f5f, type: 2}
+    trait:
+    - I'm a patient person.
+  - question: 15
+    answer: {fileID: 11400000, guid: 959769c48aed635428704d52d49005e3, type: 2}
+    trait:
+    - I'm a control freak.
+  - question: 16
+    answer: {fileID: 11400000, guid: 5383cb118dc3e844db21a41756200f85, type: 2}
+    trait:
+    - I don't drink alcohol.
+  - question: 18
+    answer: {fileID: 11400000, guid: 9d2b224f14575b44c98570d358144410, type: 2}
+    trait:
+    - I don't like the use of standardized tests in the current education system.
+  - question: 20
+    answer: {fileID: 11400000, guid: b19bb4c917ec61147a8bea7447c5b66a, type: 2}
+    trait:
+    - Because of environmental issues I think it's not that bad to eat less meat.
+  - question: 17
+    answer: {fileID: 11400000, guid: 6bc5fd9aa6e7d304481b4a99919ae78f, type: 2}
+    trait:
+    - A social issue I care about is inequality of opportunity.
+  greetings:
+  - lines:
+    - Hi there.

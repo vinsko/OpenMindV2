@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 0_Fatima_Data
+  m_EditorClassIdentifier: 
+  characterName: Fatima
+  id: 0
+  neutralAvatar: {fileID: 21300000, guid: 05e5217918ea6fa43afa962761914251, type: 3}
+  happyAvatar: {fileID: 21300000, guid: 80c554a95f9db8c479633d0e4e5d0793, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: 42a1006204dfa8344956a59c7b382b1c, type: 3}
+  voicePitch: 1.8
+  facePivot: {x: 0.4955, y: 0.6578}
+  firstGreeting: {fileID: 11400000, guid: e104c0814f686394d808a9f6366b18e8, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 8
+    answer: {fileID: 11400000, guid: c2ba47dfcae7e134c98d350e972e9274, type: 2}
+    trait:
+    - I was born in Morocco.
+  - question: 7
+    answer: {fileID: 11400000, guid: af530381e2c6a4944a2c07c6932fa84f, type: 2}
+    trait:
+    - My favorite hobby is reading books and listening to audiobooks.
+  - question: 10
+    answer: {fileID: 11400000, guid: a703cf613ba470a4dbd1f40db3ab05fd, type: 2}
+    trait:
+    - I have a master's degree.
+  - question: 12
+    answer: {fileID: 11400000, guid: 5756106de2604cd4a96b5e9ec012243f, type: 2}
+    trait:
+    - I am kind and funny.
+  - question: 13
+    answer: {fileID: 11400000, guid: c032ab562d8e22d4fbab4d5b670ce3e4, type: 2}
+    trait:
+    - My husband and daughter are very important to me.
+  - question: 19
+    answer: {fileID: 11400000, guid: a473de4ea983a114f858454634e7ed79, type: 2}
+    trait:
+    - If I would win the lottery, I would build an orphanage in Morocco.
+  - question: 9
+    answer: {fileID: 11400000, guid: 937abf0fa5c759c428d1c54e0dcbd33a, type: 2}
+    trait:
+    - I am a muslim.
+  - question: 18
+    answer: {fileID: 11400000, guid: 190c218aaf2e24e4f904153021da4e1c, type: 2}
+    trait:
+    - I used to get bullied for being a nerd.
+  - question: 16
+    answer: {fileID: 11400000, guid: 260d8c4cc891d33439c3d19007b9aaec, type: 2}
+    trait:
+    - It surprises people that I can get really angry.
+  greetings:
+  - lines:
+    - Hi there!

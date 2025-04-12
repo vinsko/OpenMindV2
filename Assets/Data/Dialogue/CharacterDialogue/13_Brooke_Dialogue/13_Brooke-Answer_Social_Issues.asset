@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 13_Brooke-Answer_Social_Issues
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 0
+    text: I try to support the LGBT community. If someone says something unjust about
+      the community I will defend it, but I wouldn't start the conversation myself.
+      I'm not really a fighter.
+    image: {fileID: 0}
+    background: []

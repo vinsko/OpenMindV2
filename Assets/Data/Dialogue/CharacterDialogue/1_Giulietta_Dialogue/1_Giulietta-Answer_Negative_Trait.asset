@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 1_Giulietta-Answer_Negative_Trait
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 2
+    text: I would say my biggest negative trait is that I'm very chaotic.
+    image: {fileID: 0}
+    background: []
+  - type: 0
+    emotion: 0
+    text: But I think it's also kind of a positive trait, my friends say it makes
+      me really refreshing.
+    image: {fileID: 0}
+    background: []
+  - type: 0
+    emotion: 1
+    text: And I think it makes me more spontaneous and playful!
+    image: {fileID: 0}
+    background: []

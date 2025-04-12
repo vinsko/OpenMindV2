@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 12_Jurgen_Data
+  m_EditorClassIdentifier: 
+  characterName: Jurgen
+  id: 12
+  neutralAvatar: {fileID: 21300000, guid: 82bbdd03deed054459b9a03e12616e01, type: 3}
+  happyAvatar: {fileID: 21300000, guid: caa1f18950b2f264a8a0ab8230486b86, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: 3a88b9ca68a58c844b6c87355a3a8fb5, type: 3}
+  voicePitch: 1
+  facePivot: {x: 0.5091, y: 0.7742}
+  firstGreeting: {fileID: 11400000, guid: deeb31ec5652d20458c738561e3cbf1e, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 1
+    answer: {fileID: 11400000, guid: 8011ac64879a51c43b2c63ca9d096899, type: 2}
+    trait:
+    - I am 29 years old.
+  - question: 2
+    answer: {fileID: 11400000, guid: db6b8b87d112abd47834cd92b1ee1ae7, type: 2}
+    trait:
+    - I am an entrepreneur.
+  - question: 6
+    answer: {fileID: 11400000, guid: 0a8ac6a15eb4fa449bd0563c779cee28, type: 2}
+    trait:
+    - I usually don't vote.
+  - question: 7
+    answer: {fileID: 11400000, guid: 070bc87afbc2abc4d8dc26c661383148, type: 2}
+    trait:
+    - I love listening to raggae, blues and hip hop.
+  - question: 8
+    answer: {fileID: 11400000, guid: 0c47ca50232b3004192c1564afda4679, type: 2}
+    trait:
+    - I grew up in the east of the Netherlands.
+  - question: 9
+    answer: {fileID: 11400000, guid: 1fc169da2b8ffd94d8f89f7c086b25a2, type: 2}
+    trait:
+    - I'm interested in spirituality.
+  - question: 10
+    answer: {fileID: 11400000, guid: 7f71927b616084e47ab106090fa42b62, type: 2}
+    trait:
+    - I went to university.
+  - question: 11
+    answer: {fileID: 11400000, guid: 043764bab20f2c246b56143b0d56e1ac, type: 2}
+    trait:
+    - I care a lot about community.
+  - question: 13
+    answer: {fileID: 11400000, guid: c52eec4a33e687447a4306446d6351e9, type: 2}
+    trait:
+    - I am the most important person in my life.
+  - question: 14
+    answer: {fileID: 11400000, guid: d97eba8559e8e2d43b128089b3ba453a, type: 2}
+    trait:
+    - I am a humerous person.
+  - question: 15
+    answer: {fileID: 11400000, guid: c09e23310fc4c7c469c794f1254c95b9, type: 2}
+    trait:
+    - I'm overzealous.
+  - question: 16
+    answer: {fileID: 11400000, guid: ba55b24f953062d49ba0f82f9e864cfd, type: 2}
+    trait:
+    - A lot of people think I'm more rigid than I really am.
+  - question: 18
+    answer: {fileID: 11400000, guid: 0fc53eff92386934fb4a923ddf2fe8d4, type: 2}
+    trait:
+    - The school setting never really suited me.
+  - question: 20
+    answer: {fileID: 11400000, guid: f6434b312dce34e48a93ba1c761bbd66, type: 2}
+    trait:
+    - I do intermittent fasting.
+  - question: 17
+    answer: {fileID: 11400000, guid: 2bc3408c800cc774e92ed3459d5d51c8, type: 2}
+    trait:
+    - I think people take in too much external news and suffering, as well as too
+      many problems.
+  greetings:
+  - lines:
+    - Hey!

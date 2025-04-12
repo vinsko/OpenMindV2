@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 15_Linda-Answer_Hoibby
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 1
+    text: "I love to ride my bike and I read a lot. I\u2019ve actually been reading
+      to three Turkish kids and it\u2019s always so much fun. They even call me grandma
+      now! They used to not really talk in school, and when they did, it was only
+      ever in Turkish, but now they speak Dutch very well. It\u2019s so important
+      to me to get out of your social bubble sometimes. "
+    image: {fileID: 0}
+    background: []

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 16_Tess_Data
+  m_EditorClassIdentifier: 
+  characterName: Tess
+  id: 16
+  neutralAvatar: {fileID: 21300000, guid: d28d604b71d7de04986139bd5f77adbb, type: 3}
+  happyAvatar: {fileID: 21300000, guid: df13c15aafd0c474794e96e7f972cd07, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: c6ef74d672398604aaece56e3b4e0b65, type: 3}
+  voicePitch: 1.7
+  facePivot: {x: 0.4951, y: 0.7515}
+  firstGreeting: {fileID: 11400000, guid: 0e8771eac8c34724aa15ba6e8f2a4f40, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 1
+    answer: {fileID: 11400000, guid: ed4a3d45428ed8d4eb0f0fe585718a24, type: 2}
+    trait:
+    - I am 41 years old.
+  - question: 3
+    answer: {fileID: 11400000, guid: 0c451071cc9ea704bb77970f13c1d31e, type: 2}
+    trait:
+    - I love Prince.
+  - question: 6
+    answer: {fileID: 11400000, guid: 7052c20a4fda7714ca971589c82e7d23, type: 2}
+    trait:
+    - I vote left-wing.
+  - question: 7
+    answer: {fileID: 11400000, guid: 07cd5da83d011a74380a3ca66e07f34b, type: 2}
+    trait:
+    - I love to take walks and to listen to music.
+  - question: 9
+    answer: {fileID: 11400000, guid: 220057baa4ba27f4a80c70be5db1bde6, type: 2}
+    trait:
+    - I am spiritual.
+  - question: 11
+    answer: {fileID: 11400000, guid: 43ac20c060ddabc4fabc6903ae4e5e71, type: 2}
+    trait:
+    - I think family, love and equality are important.
+  - question: 13
+    answer: {fileID: 11400000, guid: 23a627c638e445e45bd748e8cf05f83c, type: 2}
+    trait:
+    - The most important people to me are my kids.
+  - question: 15
+    answer: {fileID: 11400000, guid: ad6f44db415e15a4db8321824de23227, type: 2}
+    trait:
+    - I am a very chaotic person.
+  - question: 16
+    answer: {fileID: 11400000, guid: 206b6a946f093734e9e2911e310cd368, type: 2}
+    trait:
+    - I could cry about anything.
+  - question: 17
+    answer: {fileID: 11400000, guid: 2586fcbb7ef68c34f84807e1e6ed1003, type: 2}
+    trait:
+    - I think the occupation of Palestinian territory is a big issue.
+  greetings:
+  - lines:
+    - Hi there!

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 10_Viktor-Answer_Social_Issues
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 2
+    text: I think migration. I notice some people of my age that behave themselves
+      in a way that is not normal. I have a problem with that. Some population groups,
+      probably because of social deprivation, are more concerned with being in the
+      thieving guild than actually studying something decent. When countries are
+      being attacked and people really need to flee, I think you need to help them.
+      That doesn't mean we need to drag them to other countries where they will never
+      feel at home.
+    image: {fileID: 0}
+    background: []

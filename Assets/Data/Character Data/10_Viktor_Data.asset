@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 10_Viktor_Data
+  m_EditorClassIdentifier: 
+  characterName: Viktor
+  id: 10
+  neutralAvatar: {fileID: 21300000, guid: da416209f36323b48bc76b6e6548930c, type: 3}
+  happyAvatar: {fileID: 21300000, guid: 2e0e3a342d679b04e9ede4926e434b07, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: efaf77f4a732d26469aa0143241324c2, type: 3}
+  voicePitch: 1
+  facePivot: {x: 0.5019, y: 0.8557}
+  firstGreeting: {fileID: 11400000, guid: 8a51957d45ccaf34aa57d5cd3020b074, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 1
+    answer: {fileID: 11400000, guid: c0a0f371b7d571847b7d8a76dacf5b04, type: 2}
+    trait:
+    - I am 58 years old.
+  - question: 2
+    answer: {fileID: 11400000, guid: 09ef022089a73424e996166fc88138e7, type: 2}
+    trait:
+    - I am a software developer that lives with his wife and three kids.
+  - question: 3
+    answer: {fileID: 11400000, guid: f8ebeff49f4c7e04e832d26c07941e94, type: 2}
+    trait:
+    - I really respect Mark Rutte.
+  - question: 6
+    answer: {fileID: 11400000, guid: 9422c36983f28f144bcfeb8c58c5e5fd, type: 2}
+    trait:
+    - I am on the right side of the political spectrum.
+  - question: 7
+    answer: {fileID: 11400000, guid: 7580d2336b1332f4b9a02b81e2bf8bb4, type: 2}
+    trait:
+    - I like listening to progressive rock music.
+  - question: 10
+    answer: {fileID: 11400000, guid: 356bb806538f8df4fa4441257426a1c9, type: 2}
+    trait:
+    - I have a hbo degree.
+  - question: 13
+    answer: {fileID: 11400000, guid: 0a67e553072f0db46aa313b538368741, type: 2}
+    trait:
+    - My wife and children are the most important people in my life.
+  - question: 14
+    answer: {fileID: 11400000, guid: c92a762f594147943aaa5005de4dbcce, type: 2}
+    trait:
+    - I am a great listener and I am a joker.
+  - question: 15
+    answer: {fileID: 11400000, guid: 781d213112033504b805c23fb14610d0, type: 2}
+    trait:
+    - I am impatient and quick to anger.
+  - question: 16
+    answer: {fileID: 11400000, guid: 89102f24bc500cb448fc1dffd601b3f9, type: 2}
+    trait:
+    - People think I look younger than I am.
+  - question: 18
+    answer: {fileID: 11400000, guid: 15b82f247b474b04098b47fa664892d5, type: 2}
+    trait:
+    - I think discipline has declined in our education system.
+  - question: 19
+    answer: {fileID: 11400000, guid: 727f7e5a7b372264196da65a5ee70564, type: 2}
+    trait:
+    - If I would win the lottery, I would spend it on traveling.
+  - question: 20
+    answer: {fileID: 11400000, guid: 7fe581527a8468d4d913b0eeae1b2680, type: 2}
+    trait:
+    - We used to eat AVG everyday.
+  - question: 17
+    answer: {fileID: 11400000, guid: e16e750e2b0a6f34c8c5f4d348a2acbb, type: 2}
+    trait:
+    - I care a lot about migration. We shouldn't drag refugees to other countries.
+  greetings:
+  - lines:
+    - Good day.

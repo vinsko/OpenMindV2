@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 2_Willow_Data
+  m_EditorClassIdentifier: 
+  characterName: Willow
+  id: 2
+  neutralAvatar: {fileID: 21300000, guid: c784bb95dd6169440864db5e31be884d, type: 3}
+  happyAvatar: {fileID: 21300000, guid: 060c0b7c5cf448a47afb4460892f60cf, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: aeb4f22a42c856f458a2a00ed23bf826, type: 3}
+  voicePitch: 1.6
+  facePivot: {x: 0.501, y: 0.7143}
+  firstGreeting: {fileID: 11400000, guid: 299b5d32f78fa7c4ebcda78c54815cbc, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 4
+    answer: {fileID: 11400000, guid: 3d54e4bf2cedee845869b8597dc4b5fa, type: 2}
+    trait:
+    - I am pansexual. I also think I am monogamous, but I'm not sure yet.
+  - question: 2
+    answer: {fileID: 11400000, guid: f4a6f184e35261344997f0104321a670, type: 2}
+    trait:
+    - My life is going great, but I am worried about racism and inequality.
+  - question: 7
+    answer: {fileID: 11400000, guid: 8d42b495bd098b642ba2ef9e628664fb, type: 2}
+    trait:
+    - I enjoy activities with my friends, and I used to enjoy social media.
+  - question: 5
+    answer: {fileID: 11400000, guid: dbc6fbf6c53f44343b07df714fd0a8a4, type: 2}
+    trait:
+    - I am worried about the growth of racism and inequality.
+  - question: 9
+    answer: {fileID: 11400000, guid: 5e380b79954ecd940b227074c58d9a16, type: 2}
+    trait:
+    - I am not religious.
+  - question: 14
+    answer: {fileID: 11400000, guid: 8be837a538e7bbb4fac3e8469c6256d5, type: 2}
+    trait:
+    - I am very chill person, but sometimes too chill.
+  - question: 11
+    answer: {fileID: 11400000, guid: d75d5eec416cd524a9f095d58da76249, type: 2}
+    trait:
+    - I think friendship, being independent and self-confidence are important.
+  - question: 19
+    answer: {fileID: 11400000, guid: 79747a32aca3d384da9f1e5a58bbaf90, type: 2}
+    trait:
+    - If I would win the lottery, I would buy a house and go on a vacation.
+  - question: 18
+    answer: {fileID: 11400000, guid: 194a3a3da1cf1d44a9258bc32069b290, type: 2}
+    trait:
+    - I think a lot of people don't fit the current education system.
+  greetings:
+  - lines:
+    - Hi there!

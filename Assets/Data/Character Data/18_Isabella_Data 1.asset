@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 18_Isabella_Data 1
+  m_EditorClassIdentifier: 
+  characterName: Isabella
+  id: 18
+  neutralAvatar: {fileID: 21300000, guid: a0364568eb7954d45ab14fc330033a75, type: 3}
+  happyAvatar: {fileID: 21300000, guid: e69b90e6227b70649afa1f2821ca760e, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: 937f3e22246657d4bbd37a135d6dc0a5, type: 3}
+  voicePitch: 1.6
+  facePivot: {x: 0.4908, y: 0.7413}
+  firstGreeting: {fileID: 11400000, guid: 90ef825ac1eace042b91c59c6f40c99c, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 1
+    answer: {fileID: 11400000, guid: 564dd2e589afb524e96459956e3c5c13, type: 2}
+    trait:
+    - I'm 58 years old.
+  - question: 2
+    answer: {fileID: 11400000, guid: 2ab85d4eeb986964bb5df1d3ebe7b709, type: 2}
+    trait:
+    - I am not married to my partner.
+  - question: 6
+    answer: {fileID: 11400000, guid: 3e077641d5a91f942b797323f196bf82, type: 2}
+    trait:
+    - I'm opposed to the patriarchy.
+  - question: 7
+    answer: {fileID: 11400000, guid: 6a759a14a9fefa148b7ab3412eae73a6, type: 2}
+    trait:
+    - One of my hobbies is reading.
+  - question: 9
+    answer: {fileID: 11400000, guid: 38d0e0626659efd44a57eb703e637560, type: 2}
+    trait:
+    - I was raised Catholic.
+  - question: 10
+    answer: {fileID: 11400000, guid: f27b23067dc63f3489c5a65419cd6655, type: 2}
+    trait:
+    - I have tried many different studies, but I didn't finish most of them.
+  - question: 11
+    answer: {fileID: 11400000, guid: 3159acc1878753f4a8b687406f9a0b65, type: 2}
+    trait:
+    - I think it's important to think about the future and the environment.
+  - question: 13
+    answer: {fileID: 11400000, guid: de71e210a380022459dc82be82d15b89, type: 2}
+    trait:
+    - The most important person in my life are my partner, my son and my sister.
+  - question: 14
+    answer: {fileID: 11400000, guid: d41bd697c798f4548b55df4ee328c14e, type: 2}
+    trait:
+    - I'm a kind and humorous person.
+  - question: 15
+    answer: {fileID: 11400000, guid: 18250d4e5d61a0645b874bb55bf31bd3, type: 2}
+    trait:
+    - I am an impatient person.
+  - question: 19
+    answer: {fileID: 11400000, guid: 1ed82ccdcd22c1d45986303ca8d3c3db, type: 2}
+    trait:
+    - If I would win the lottery, I would create more space for artists.
+  - question: 20
+    answer: {fileID: 11400000, guid: 5a49309d025f6bd45bc07c2f68b4e880, type: 2}
+    trait:
+    - I buy a lot of organic foods.
+  - question: 17
+    answer: {fileID: 11400000, guid: b8fce6cf258469b4b8eed91904b766fd, type: 2}
+    trait:
+    - A social issue I'm interested in is the asylum policy.
+  greetings:
+  - lines:
+    - Good day.

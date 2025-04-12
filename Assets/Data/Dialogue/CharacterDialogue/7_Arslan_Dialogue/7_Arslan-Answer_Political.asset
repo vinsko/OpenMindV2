@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 7_Arslan-Answer_Political
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 2
+    text: I think there are too many cutbacks on culture and university. Those cutbacks
+      are super weird in my opinion. Investing in the youth and their education seems
+      like a good idea to benefit the economy. Those investments would also create
+      more chances for people, so those cutbacks are very weird to me.
+    image: {fileID: 0}
+    background: []

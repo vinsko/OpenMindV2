@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1218d048a0c254b8553e0eeb869fcd, type: 3}
+  m_Name: 21_Daan-Answer_Political
+  m_EditorClassIdentifier: 
+  voicePitch: 1
+  segments:
+  - type: 0
+    emotion: 0
+    text: I'm left wing. In general, I'd rather not participate in political discussions.
+      Especially when someone says something important I don't agree with at all.
+      I think there are a lot stupid people here that believe anything without thinking
+      or looking for the truth. I think a lot of sectors and groups of people are
+      going to suffer. I see that we are going to the right side and for things like
+      culture, there will be less money.
+    image: {fileID: 0}
+    background: []

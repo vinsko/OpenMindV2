@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be38393e0cd022a4d9f985cbf6a610ec, type: 3}
+  m_Name: 1_Giulietta_Data
+  m_EditorClassIdentifier: 
+  characterName: Giulietta
+  id: 1
+  neutralAvatar: {fileID: 21300000, guid: 25b3950b4c4ae2c499bd25449e0065e1, type: 3}
+  happyAvatar: {fileID: 21300000, guid: b60093a81e1910847806f7c81ef21e85, type: 3}
+  unhappyAvatar: {fileID: 21300000, guid: ec5c77b024c14d448a0328a6559f1669, type: 3}
+  voicePitch: 1.8
+  facePivot: {x: 0.5503, y: 0.6731}
+  firstGreeting: {fileID: 11400000, guid: 4a8d522a3110b46448235fa7037dee8b, type: 2}
+  greeting: {fileID: 0}
+  answers:
+  - question: 15
+    answer: {fileID: 11400000, guid: 1a156812a6713354b88e9c48179effe3, type: 2}
+    trait:
+    - My biggest negative trait is that I'm very chaotic, but it also has its positive
+      side.
+  - question: 7
+    answer: {fileID: 11400000, guid: fc4ebd498e7c4164fbf86fb91251cde9, type: 2}
+    trait:
+    - I love to listen to and write music.
+  - question: 11
+    answer: {fileID: 11400000, guid: ee7d504998b719642bf8c8ba0de6fbce, type: 2}
+    trait:
+    - Equality is very important to me.
+  - question: 6
+    answer: {fileID: 11400000, guid: 743d2dc7f5e0724469eb39bf3cc94a1c, type: 2}
+    trait:
+    - I think the growth of right-wing parties is very scary.
+  - question: 4
+    answer: {fileID: 11400000, guid: 3005d56a0b70db147a4872ca38ad4cca, type: 2}
+    trait:
+    - I am bisexual.
+  - question: 16
+    answer: {fileID: 11400000, guid: 113811d784721f44fa0daca721130442, type: 2}
+    trait:
+    - People are surprised when they hear I'm an introvert.
+  - question: 13
+    answer: {fileID: 11400000, guid: c7738df0a158ec342a531ec5a5ad2e8d, type: 2}
+    trait:
+    - My sister is the most important person to me.
+  - question: 19
+    answer: {fileID: 11400000, guid: 733f57dac33dc6840a17f6668fe71a26, type: 2}
+    trait:
+    - If I would win the lottery, I would invest the money in a music career.
+  - question: 18
+    answer: {fileID: 11400000, guid: 7be52b6c6ac842a41be5e3ecfd7ba409, type: 2}
+    trait:
+    - We should invest more money into education.
+  greetings:
+  - lines:
+    - Oh, hi!
