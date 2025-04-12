@@ -123,7 +123,13 @@ public class MultiplayerMenuManager : MonoBehaviour
     /// </summary>
     public void StartAsHost()
     {
-        MultiplayerManager.mm.StartGame();
+        if(MultiplayerManager.mm.GetPlayerAmount() > 0)
+            MultiplayerManager.mm.StartGame();
+        else
+        {
+            string message = "Cannot start the game. At least 1 player has to join in order to start the game.";
+            MultiplayerManager.mm.doPopup.Raise(this, message, "Notification", true);
+        }
     }
 
     #endregion
