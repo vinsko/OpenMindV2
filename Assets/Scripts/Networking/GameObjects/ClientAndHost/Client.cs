@@ -110,7 +110,7 @@ public class Client : NetworkObject
         if (settings.IsDebug)
             DebugError("(Client): Disconnected from the host.");
         else
-            DisplayError("You got disconnected from the host, please check whether you and the host are connected to the internet.");
+            DisplayError("You got disconnected from the host, please check whether you and the host are connected to the internet or whether the lobby is full.");
         isConnected = false;
     }
     
